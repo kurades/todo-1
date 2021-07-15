@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>T.Eng</title>
+    <!-- icon -->
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/1/1560.png" type="image/x-icon">
+    <!-- font -->
+    <link rel="preconnect"href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- external library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.css" />
+
+    <!-- js lib -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <h1 class="logo-header">Kraddess</h1> 
+      </div>
+      <nav>
+        <a class="item active" href=""><p>Overview</p> <i class="fas fa-align-justify"></i></a>
+        <a class="item" href=""><p>Project</p> <i class="far fa-folder"></i></a>
+        <a class="item" href=""><p>Stats</p> <i class="far fa-chart-bar"></i></a>
+        <a class="item" href=""><p>Calendar</p> <i class="far fa-calendar-alt"></i></a>
+      </nav>
+      <div class="profile">
+        
+        <div class="profile-info">
+          <div class="avatar">
+            <img src="https://www.memesmonkey.com/images/memesmonkey/aa/aa8db7bd41c498c31b46c2c0bd7ad3ad.jpeg" alt="mêm">
+          </div>
+          <div class="profile-info-content">
+            <h4>Là Bố M Đấy</h4>
+            <p>Codẻ + Déignẻ + jóetả</p>
+          </div>
+        </div>
+        <div class="button-feature">
+          <a href="" class="item"><i class="fas fa-cog"></i></a>
+          <a href="" class="item"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+        
+      </div>
+    </div>
+    <div class="navbar-placeholder"></div>
+    <div class="frame">
+      <div class="col-1">
+        <!-- <div class="row-1">
+          <div class="search">
+          <button class="search-button"><i class="fas fa-search"></i></button>
+          <input type="text" class="search-input" placeholder="Search everything">
+        </div>
+        <a href="" class="icon"><i class="far fa-bell"></i></a>
+        <a href="" class="icon"><i class="far fa-bookmark"></i></a>
+        <button class="task-button"><i class="gg-file-add"></i>New task</button>
+        </div> -->
+        <div class="row"><h2>MotherF*ker</h2></div>
+        <div class="row">
+        <div class="banner">
+          <img src="/assets/img/banner.jpg" alt="">
+        </div>
+        </div>
+        <div class="row">
+          <div class="todo-stats">
+            <div class="todo-queue todo-stat">
+              <h3>Todo(s)</h3>
+              <form class="form-input" id="form">
+                <input type="text" name=""  id="todo-input" placeholder="Input task here!" autocomplete="off">
+                <input type="submit" class="todo-submit" value="+">
+              </form>
+              <div class="dragable " id="todos">
+                <div class="task">
+                  <p>make this todo and aosjdsiouasldhisdh</p>
+                </div>
+              </div>
+            </div>
+            <div class="todo-on-going todo-stat" >
+              <h3>On-Going</h3>
+              <div class="dragable " id="onGoing">
+                <div class="task">
+                  <p>utyu</p>
+                </div>
+              </div>
+            </div>
+            <div class="todo-complete todo-stat" >
+              <h3>Complete</h3>
+              <div class="dragable " id="complete">
+                <div class="task">
+                  <p>abca</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <!-- js -->
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/custom.js"></script>
+  </body>
+</html>

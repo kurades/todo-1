@@ -1,0 +1,25 @@
+{
+  "acc":[
+    {
+      "name":"kraddess",
+      "todos":[
+        {
+          "content":"make dis shjt",
+        },
+        {
+          "content":"make some other shjt"
+        }
+      ],
+      "onGoing":[
+        {
+          "content":"dun no"
+        }
+      ],
+      "complete":[
+        {
+          "content":"hehe"
+        }
+      ]
+    }
+  ]
+}
